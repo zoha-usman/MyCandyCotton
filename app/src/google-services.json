@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205437554122",
+    "project_id": "mycandycotton-3a59d",
+    "storage_bucket": "mycandycotton-3a59d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205437554122:android:8a0a8859ae099bffda5333",
+        "android_client_info": {
+          "package_name": "com.zohausman.mycandycotton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205437554122-rt949npia412fbtvr8rfo44k2c8poelm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClaEjN8Sc0xLxUMLK659o9m3oxyghQ2Y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205437554122-rt949npia412fbtvr8rfo44k2c8poelm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

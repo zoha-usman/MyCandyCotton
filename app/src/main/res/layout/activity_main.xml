@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4BAFE"
+
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C4BAFE"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Mobile OTP"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="#2E482D"
+            android:textSize="25sp"
+            app:autoSizeTextType="uniform"
+            app:fontFamily=""
+            app:textAllCaps="true"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/logimg" />
+
+        <TextView
+            android:id="@+id/DT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Dont Forget To Be Register"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:textColor="#2E482D"
+            android:textSize="18sp"
+            app:autoSizeTextType="uniform"
+            app:fontFamily=""
+            app:textAllCaps="true" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+     <androidx.appcompat.widget.LinearLayoutCompat
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:background="@drawable/viewbackground"
+         android:gravity="center"
+         android:orientation="vertical"
+         android:padding="20dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat3">
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:text="Welcome to Dashbaord"
+             android:textColor="@color/black"
+             android:textSize="20sp"
+             android:textStyle="bold"
+
+          />
+
+         <Button
+             android:id="@+id/btnEmailLog"
+             android:layout_width="300dp"
+             android:layout_height="60dp"
+             android:text="Login with email"
+             android:background="@drawable/button"
+             android:textColor="@color/white"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:backgroundTint="@color/pink"
+             android:layout_marginTop="20dp"
+             tools:layout_editor_absoluteX="106dp"
+             tools:layout_editor_absoluteY="402dp" />
+
+         <Button
+             android:id="@+id/btnMobileLog"
+             android:layout_width="300dp"
+             android:layout_height="60dp"
+             android:text="Login with Mobile"
+             android:background="@drawable/button"
+             android:textColor="@color/white"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:backgroundTint="@color/blue"
+             tools:layout_editor_absoluteX="106dp"
+             tools:layout_editor_absoluteY="557dp" />
+         <Button
+             android:id="@+id/btnGoogleLogin"
+             android:layout_width="300dp"
+             android:layout_height="60dp"
+             android:text="Login with Mobile"
+             android:background="@drawable/button"
+             android:textColor="@color/white"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:backgroundTint="@color/orange"
+             android:layout_marginTop="10dp"
+            />
+
+
+         <Button
+             android:id="@+id/btnSkipLog1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Skip"
+             android:background="@drawable/button"
+             android:backgroundTint="@color/purple"
+             android:textColor="@color/white"
+             android:textSize="20sp"
+             android:textStyle="bold"
+             android:layout_marginBottom="0dp"
+             android:layout_marginStart="100dp"
+             android:layout_marginTop="40dp"
+            />
+
+     </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
